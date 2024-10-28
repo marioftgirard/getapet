@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "esModuleInterop": true,
+    "outDir": "./build",
+    "strict": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "target": "ES5"
+  },
+  "include": [
+    "./src/**/*",
+    "./server.ts"
+  ]
+}
